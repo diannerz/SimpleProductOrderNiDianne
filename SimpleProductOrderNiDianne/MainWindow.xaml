@@ -1,0 +1,23 @@
+﻿<Window x:Class="SimpleProductOrderNiDianne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Window" Height="300" Width="400">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Product Name:"/>
+            <TextBox x:Name="ProductNameTextBox"/>
+
+            <TextBlock Text="Quantity:" Margin="0,10,0,0"/>
+            <TextBox x:Name="QuantityTextBox"/>
+
+            <TextBlock Text="Customer Name:" Margin="0,10,0,0"/>
+            <TextBox x:Name="CustomerNameTextBox"/>
+
+            <TextBlock Text="Customer Address:" Margin="0,10,0,0"/>
+            <TextBox x:Name="CustomerAddressTextBox"/>
+            <Button Content="Submit Order" Margin="0,20,0,0" Click="SubmitOrder_Click"/>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
